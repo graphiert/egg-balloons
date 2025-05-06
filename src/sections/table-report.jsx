@@ -1,9 +1,10 @@
+import report from "../assets/table.jpg";
 import Card from "../components/card";
 
 export default function Report() {
   return (
     <div className="min-h-screen snap-center flex justify-center items-center flex-col md:flex-row gap-4">
-      <Card title="Hasil Kerja" img="/table.jpg"></Card>
+      <Card title="Hasil Kerja" img={report}></Card>
       <Card title="Pertanyaan">
         <ol class="list-decimal text-sm ml-4">
           <li>
