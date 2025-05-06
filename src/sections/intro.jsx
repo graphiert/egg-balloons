@@ -3,10 +3,7 @@ import Card from "../components/card";
 
 export default function Intro() {
   return (
-    <div
-      id="page2"
-      className="min-h-screen flex justify-center items-center flex-col gap-4"
-    >
+    <div className="min-h-screen snap-center flex justify-center items-center flex-col gap-4">
       <div className="pl-24 flex flex-row w-full">
         <Card title="Tujuan Praktikum">
           <p className="text-pretty text-sm">
@@ -35,7 +32,7 @@ export default function Intro() {
           </ol>
         </Card>
       </div>
-      <Button href="#page3">Lanjut</Button>
+      {/* <Button href="#page3">Lanjut</Button> */}
     </div>
   );
 }
