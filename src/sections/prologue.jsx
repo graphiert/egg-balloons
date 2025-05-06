@@ -1,4 +1,3 @@
-import profile from "../assets/profile.jpg";
 import Card from "../components/card";
 
 export default function Prologue() {
@@ -7,7 +6,7 @@ export default function Prologue() {
       <div className="flex flex-col gap-4">
         <Card
           title="Kelompok Praktikum 1"
-          img={profile}
+          img="/egg-balloons/profile.jpg"
         >
           <p className="text-pretty text-sm">
             Galih | Tiara | Vino | Revana | Sukma | Syekhilla
