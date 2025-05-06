@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "@fontsource/jost";
+
+@theme {
+  --font-sans: "Jost", font-sans;
+}
