@@ -17,10 +17,10 @@ export default function Intro() {
       </div>
       <div className="pr-24 flex flex-row-reverse w-full">
         <Card title="Landasan Teori">
-          <p className="text-pretty text-sm">
+          {/* <p className="text-pretty text-sm">
             Ada 4 faktor yang mempengaruhi laju reaksi yaitu luas permukaan
             bidang sentuh, konsentrasi, suhu dan katalis.
-          </p>
+          </p> */}
           <ol class="list-decimal ml-4">
             <li>
               Konsentrasi, Jika konsentrasi pereaksi diperbesar, maka laju
