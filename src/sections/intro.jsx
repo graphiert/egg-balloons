@@ -21,7 +21,7 @@ export default function Intro() {
             Ada 4 faktor yang mempengaruhi laju reaksi yaitu luas permukaan
             bidang sentuh, konsentrasi, suhu dan katalis.
           </p> */}
-          <ol class="list-decimal ml-4">
+          <ol class="list-decimal ml-4 text-sm">
             <li>
               Konsentrasi, Jika konsentrasi pereaksi diperbesar, maka laju
               reaksinya akan semakin cepat.
