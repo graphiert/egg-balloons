@@ -2,9 +2,9 @@ import Card from "../components/card";
 
 export default function Ingredients() {
   return (
-    <div id="page3" className="min-h-screen snap-center flex justify-center items-center flex-col md:flex-row gap-4">
+    <div id="page3" className="py-4 min-h-screen snap-center flex justify-center items-center flex-col md:flex-row gap-4">
       <Card title="Bahan dan Alat">
-        <ul class="list-disc ml-4 text-sm">
+        <ul className="list-disc ml-4 text-sm">
           <li>Botol Air Mineral</li>
           <li>Cuka</li>
           <li>Cangkang telur</li>
@@ -13,7 +13,7 @@ export default function Ingredients() {
         </ul>
       </Card>
       <Card title="Praktikum #1">
-        <ul class="list-decimal ml-4 text-sm">
+        <ul className="list-decimal ml-4 text-sm">
           <li>
             Siapkan 3 botol air mineral dengan label, isi masing-masing +- 30ml
             air cuka
@@ -30,7 +30,7 @@ export default function Ingredients() {
         </ul>
       </Card>
       <Card title="Praktikum #2">
-        <ul class="list-decimal ml-4 text-sm">
+        <ul className="list-decimal ml-4 text-sm">
           <li>
             Siapkan 3 wadah bening dengan label, isi masing-masing +- 30ml air
             cuka

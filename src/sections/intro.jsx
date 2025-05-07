@@ -3,7 +3,7 @@ import Card from "../components/card";
 
 export default function Intro() {
   return (
-    <div id="page2" className="min-h-screen snap-center flex justify-center items-center flex-col gap-4">
+    <div id="page2" className="py-4 min-h-screen snap-center flex justify-center items-center flex-col gap-4">
       <div className="pl-24 flex flex-row w-full">
         <Card title="Tujuan Praktikum">
           <p className="text-pretty text-sm">
@@ -18,7 +18,7 @@ export default function Intro() {
             Ada 4 faktor yang mempengaruhi laju reaksi yaitu luas permukaan
             bidang sentuh, konsentrasi, suhu dan katalis.
           </p> */}
-          <ol class="list-decimal ml-4 text-sm">
+          <ol className="list-decimal ml-4 text-sm">
             <li>
               Konsentrasi, Jika konsentrasi pereaksi diperbesar, maka laju
               reaksinya akan semakin cepat.

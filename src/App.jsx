@@ -3,8 +3,9 @@ import AOS from "aos";
 import Ingredients from "./sections/ingredients";
 import Intro from "./sections/intro";
 import Prologue from "./sections/prologue";
-import Report from "./sections/table-report";
+import TableReport from "./sections/table-report";
 import Ending from "./sections/ending";
+import Report from "./sections/report";
 
 export default function App() {
   useEffect(() => {
@@ -15,6 +16,7 @@ export default function App() {
       <Prologue />
       <Intro />
       <Ingredients />
+      <TableReport />
       <Report />
       <Ending />
     </div>

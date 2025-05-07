@@ -2,13 +2,13 @@ import Card from "../components/card";
 
 export default function Report() {
   return (
-    <div id="page4" className="min-h-screen snap-center flex justify-center items-center flex-col md:flex-row gap-4">
+    <div id="page4" className="py-4 min-h-screen snap-center flex justify-center items-center flex-col md:flex-row gap-4">
       <Card title="Hasil Kerja" img="/egg-balloons/table.jpg"></Card>
       <Card title="Pertanyaan">
-        <ol class="list-decimal text-sm ml-4">
+        <ol className="list-decimal text-sm ml-4">
           <li>
             Bagaimana reaksi yang kalian amati pada 2 percobaan?
-            <ul class="list-disc ml-8">
+            <ul className="list-disc ml-8">
               <li>
                 Percobaan 1: Semakin banyak soda kue, semakin banyak gas yang
                 dihasilkan.
@@ -21,7 +21,7 @@ export default function Report() {
           </li>
           <li>
             Apa faktor yang memengaruhi percobaan tersebut? Jelaskan alasannya.
-            <ul class="list-disc ml-8">
+            <ul className="list-disc ml-8">
               <li>
                 Percobaan 1: Konsentrasi memengaruhi percobaan ini karena
                 semakin banyak soda kue yang dituang akan semakin besar
