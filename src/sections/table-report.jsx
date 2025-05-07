@@ -2,7 +2,7 @@ import Card from "../components/card";
 
 export default function Report() {
   return (
-    <div className="min-h-screen snap-center flex justify-center items-center flex-col md:flex-row gap-4">
+    <div id="page4" className="min-h-screen snap-center flex justify-center items-center flex-col md:flex-row gap-4">
       <Card title="Hasil Kerja" img="/egg-balloons/table.jpg"></Card>
       <Card title="Pertanyaan">
         <ol class="list-decimal text-sm ml-4">

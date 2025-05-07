@@ -2,7 +2,7 @@ import Card from "../components/card";
 
 export default function Ingredients() {
   return (
-    <div className="min-h-screen snap-center flex justify-center items-center flex-col md:flex-row gap-4">
+    <div id="page3" className="min-h-screen snap-center flex justify-center items-center flex-col md:flex-row gap-4">
       <Card title="Bahan dan Alat">
         <ul class="list-disc ml-4 text-sm">
           <li>Botol Air Mineral</li>

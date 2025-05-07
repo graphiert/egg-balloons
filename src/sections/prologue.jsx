@@ -2,7 +2,7 @@ import Card from "../components/card";
 
 export default function Prologue() {
   return (
-    <div className="min-h-screen snap-center flex justify-center items-center">
+    <div id="page1" className="min-h-screen snap-center flex justify-center items-center">
       <div data-aos="fade-down" className="flex flex-col gap-4">
         <Card
           title="Kelompok Praktikum 1"
