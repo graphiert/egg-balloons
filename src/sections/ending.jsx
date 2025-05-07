@@ -1,9 +1,9 @@
 import Card from "../components/card";
 
-export default function Prologue() {
+export default function Ending() {
   return (
     <div className="min-h-screen snap-center flex justify-center items-center">
-      <div data-aos="fade-down" className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4">
         <Card
           title="Kelompok Praktikum 1"
           img="/egg-balloons/profile.jpg"
