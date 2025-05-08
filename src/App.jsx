@@ -1,18 +1,30 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import AOS from "aos";
-import Ingredients from "./sections/ingredients";
-import Intro from "./sections/intro";
+
 import Prologue from "./sections/prologue";
+import Intro from "./sections/intro";
+import Ingredients from "./sections/ingredients";
 import TableReport from "./sections/table-report";
-import Ending from "./sections/ending";
 import Report from "./sections/report";
+import Ending from "./sections/ending";
 
 export default function App() {
+  const containerRef = useRef(null);
   useEffect(() => {
-    AOS.init()
-  }, [])
+    AOS.init();
+    document.addEventListener('keydown', e => {
+      e.key == "ArrowDown" || e.key == "ArrowRight" ? containerRef.current.scrollBy({
+        top: window.innerHeight,
+        behavior: 'smooth',
+      }) : e.key == "ArrowUp" || e.key == "ArrowLeft" ? containerRef.current.scrollBy({
+        top: -window.innerHeight,
+        behavior: 'smooth',
+      }) : null;
+    })
+  }, []);
+
   return (
-    <div className="p-4 bg-slate-400 snap-y snap-mandatory h-screen overflow-y-scroll">
+    <div ref={containerRef} className="p-4 bg-slate-400 snap-y snap-mandatory h-screen overflow-y-scroll">
       <Prologue />
       <Intro />
       <Ingredients />

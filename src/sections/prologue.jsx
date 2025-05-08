@@ -12,7 +12,6 @@ export default function Prologue() {
             Galih | Tiara | Vino | Revana | Sukma | Syekhilla
           </p>
         </Card>
-        {/* <Button href="#page2">Ayo!</Button> */}
       </div>
     </div>
   );

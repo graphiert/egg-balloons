@@ -1,5 +1,4 @@
-import Button from "../components/button";
-import Card from "../components/card";
+import Card from "../components/widecard";
 
 export default function Intro() {
   return (
@@ -18,7 +17,6 @@ export default function Intro() {
           </p>
         </Card>
       </div>
-      {/* <Button href="#page3">Lanjut</Button> */}
     </div>
   );
 }

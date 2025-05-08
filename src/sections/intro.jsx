@@ -1,4 +1,3 @@
-import Button from "../components/button";
 import Card from "../components/card";
 
 export default function Intro() {
@@ -14,10 +13,6 @@ export default function Intro() {
       </div>
       <div className="pr-24 flex flex-row-reverse w-full">
         <Card title="Landasan Teori">
-          {/* <p className="text-pretty text-sm">
-            Ada 4 faktor yang mempengaruhi laju reaksi yaitu luas permukaan
-            bidang sentuh, konsentrasi, suhu dan katalis.
-          </p> */}
           <ol className="list-decimal ml-4 text-sm">
             <li>
               Konsentrasi, Jika konsentrasi pereaksi diperbesar, maka laju
@@ -32,7 +27,6 @@ export default function Intro() {
           </ol>
         </Card>
       </div>
-      {/* <Button href="#page3">Lanjut</Button> */}
     </div>
   );
 }
