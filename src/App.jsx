@@ -26,7 +26,7 @@ export default function App() {
           })
         : null;
     });
-    // alert(yapping);
+    alert(yapping);
   }, []);
 
   return (
