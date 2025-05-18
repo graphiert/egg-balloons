@@ -2,8 +2,7 @@ import Card from "../components/card";
 
 export default function Ingredients() {
   return (
-    <section
-      id="page3"
+    <section 
       className="py-4 min-h-screen snap-center flex justify-center items-center flex-col gap-4"
     >
       <div className="flex flex-col md:flex-row">

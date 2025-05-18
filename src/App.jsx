@@ -6,7 +6,10 @@ import Prologue from "./sections/prologue";
 import Intro from "./sections/intro";
 import Ingredients from "./sections/ingredients";
 import TableReport from "./sections/table-report";
+import FirstQuestion from "./sections/first-question";
+import SecondQuestion from "./sections/second-question";
 import Report from "./sections/report";
+import Conclusion from "./sections/conclusion";
 import Docs from "./sections/docs";
 import Ending from "./sections/ending";
 
@@ -38,7 +41,10 @@ export default function App() {
       <Intro />
       <Ingredients />
       <TableReport />
+      <FirstQuestion />
+      <SecondQuestion />
       <Report />
+      <Conclusion />
       <Docs />
       <Ending />
     </main>

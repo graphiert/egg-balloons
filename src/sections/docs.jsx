@@ -3,7 +3,6 @@ import Card from "../components/card";
 export default function Docs() {
   return (
     <section
-      id="page6"
       className="py-4 min-h-screen snap-center flex justify-center items-center flex-col gap-4"
     >
       <div className="flex">

@@ -2,7 +2,7 @@ import Card from "../components/card";
 
 export default function Ending() {
   return (
-    <section id="page7" className="py-4 min-h-screen snap-center flex justify-center items-center">
+    <section className="py-4 min-h-screen snap-center flex justify-center items-center">
       <div className="flex flex-col gap-4">
         <Card
           centerizeTitle
