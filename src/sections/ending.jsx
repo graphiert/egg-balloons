@@ -2,7 +2,7 @@ import Card from "../components/card";
 
 export default function Ending() {
   return (
-    <div id="page7" className="py-4 min-h-screen snap-center flex justify-center items-center">
+    <section id="page7" className="py-4 min-h-screen snap-center flex justify-center items-center">
       <div className="flex flex-col gap-4">
         <Card
           title="Kelompok Praktikum 1"
@@ -13,6 +13,6 @@ export default function Ending() {
           </p>
         </Card>
       </div>
-    </div>
+    </section>
   );
 }

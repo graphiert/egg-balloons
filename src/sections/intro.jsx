@@ -2,7 +2,7 @@ import Card from "../components/card";
 
 export default function Intro() {
   return (
-    <div
+    <section
       id="page2"
       className="py-4 min-h-screen snap-center flex justify-center items-center flex-col gap-4"
     >
@@ -30,6 +30,6 @@ export default function Intro() {
           hanya akan memaparkan hasil praktikum dari kelompok kami untuk nomor 1 dan 2.
         </p>
       </Card>
-    </div>
+    </section>
   );
 }

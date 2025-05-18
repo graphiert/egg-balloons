@@ -2,7 +2,7 @@ import Card from "../components/card";
 
 export default function Report() {
   return (
-    <div id="page4" className="py-4 min-h-screen snap-center flex justify-center items-center flex-col md:flex-row gap-4">
+    <section id="page4" className="py-4 min-h-screen snap-center flex justify-center items-center flex-col md:flex-row gap-4">
       <Card title="Hasil Kerja" img="/egg-balloons/table.png"></Card>
       <Card title="Pertanyaan">
         <ol className="list-decimal text-sm ml-4">
@@ -35,6 +35,6 @@ export default function Report() {
           </li>
         </ol>
       </Card>
-    </div>
+    </section>
   );
 }

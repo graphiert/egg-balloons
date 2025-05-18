@@ -26,11 +26,11 @@ export default function App() {
           })
         : null;
     });
-    alert(yapping);
+    // alert(yapping);
   }, []);
 
   return (
-    <div
+    <main
       ref={containerRef}
       className="p-4 bg-slate-400 snap-y snap-mandatory h-screen overflow-y-scroll"
     >
@@ -41,6 +41,6 @@ export default function App() {
       <Report />
       <Docs />
       <Ending />
-    </div>
+    </main>
   );
 }
