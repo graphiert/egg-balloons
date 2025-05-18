@@ -12,11 +12,11 @@ export default function Card({ title, children, img, centerizeTitle, wide }) {
       )}
       {(title || children) && (
         <div
-          className={`flex flex-col gap-4 p-4 ${
-            centerizeTitle && "text-center"
-          }`}
+          className="flex flex-col gap-4 p-4"
         >
-          <h3 className="text-balance text-xl lg:text-2xl font-bold text-black">
+          <h3 className={`text-balance text-xl lg:text-2xl font-bold text-black ${
+            centerizeTitle && "text-center"
+          }`}>
             {title}
           </h3>
           {children}
