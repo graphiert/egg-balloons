@@ -27,7 +27,7 @@ export default function Intro() {
       </Card>
       <Card wide>
         <p className="text-pretty text-sm">
-          Nomor 1 dan 2 adalah objektif yang kita praktikumkan. Halaman setelahnya
+          Nomor 1 dan 2 adalah objektif yang kami praktikumkan. Halaman setelahnya
           hanya akan memaparkan hasil praktikum dari kelompok kami untuk nomor 1 dan 2.
         </p>
       </Card>
