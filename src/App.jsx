@@ -11,7 +11,6 @@ import SecondQuestion from "./sections/second-question";
 import Report from "./sections/report";
 import Conclusion from "./sections/conclusion";
 import Docs from "./sections/docs";
-import Ending from "./sections/ending";
 
 export default function App() {
   const containerRef = useRef(null);
@@ -37,7 +36,7 @@ export default function App() {
       ref={containerRef}
       className="p-4 bg-slate-400 snap-y snap-mandatory h-screen overflow-y-scroll"
     >
-      <Prologue />
+      <Prologue withAnimate />
       <Intro />
       <Ingredients />
       <TableReport />
@@ -46,7 +45,7 @@ export default function App() {
       <Report />
       <Conclusion />
       <Docs />
-      <Ending />
+      <Prologue />
     </main>
   );
 }
