@@ -6,13 +6,13 @@ export default function Intro() {
       className="py-4 min-h-screen snap-center flex justify-center items-center flex-col gap-4"
     >
       <Card title="Tujuan Praktikum" wide>
-        <p className="text-pretty text-sm">
+        <p className="text-pretty">
           Tujuan praktikum ini yaitu untuk menganalisis faktor yang mempengaruhi
           laju reaksi.
         </p>
       </Card>
       <Card title="Landasan Teori" wide>
-        <ol className="list-decimal ml-4 text-sm">
+        <ol className="list-decimal ml-4">
           <li className="font-bold">
             Konsentrasi, Jika konsentrasi pereaksi diperbesar, maka laju
             reaksinya akan semakin cepat.

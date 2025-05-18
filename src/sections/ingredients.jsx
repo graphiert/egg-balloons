@@ -7,7 +7,7 @@ export default function Ingredients() {
     >
       <div className="flex flex-col md:flex-row">
         <Card title="Bahan dan Alat">
-          <ul className="list-disc ml-4 text-sm">
+          <ul className="list-disc ml-4">
             <li>Botol Air Mineral</li>
             <li>Cuka</li>
             <li>Cangkang telur</li>
@@ -18,7 +18,7 @@ export default function Ingredients() {
       </div>
       <div className="flex flex-col md:flex-row gap-4">
         <Card title="Praktikum #1">
-          <ul className="list-decimal ml-4 text-sm">
+          <ul className="list-decimal ml-4">
             <li>
               Siapkan 3 botol air mineral dengan label, isi masing-masing ±
               30ml air cuka
@@ -35,7 +35,7 @@ export default function Ingredients() {
           </ul>
         </Card>
         <Card title="Praktikum #2">
-          <ul className="list-decimal ml-4 text-sm">
+          <ul className="list-decimal ml-4">
             <li>
               Siapkan 3 wadah bening dengan label, isi masing-masing ± 30ml air
               cuka
