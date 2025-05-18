@@ -1,7 +1,19 @@
 @import "tailwindcss";
 @import "@fontsource/jost";
-@import "aos/dist/aos.css";
 
 @theme {
   --font-sans: "Jost", font-sans;
+  --animate-fade-down: fade-down 1s cubic-bezier(0.87, 0, 0.13, 1) 1;
+
+  @keyframes fade-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 }

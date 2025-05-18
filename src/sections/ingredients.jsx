@@ -21,7 +21,7 @@ export default function Ingredients() {
         <Card title="Praktikum #1">
           <ul className="list-decimal ml-4 text-sm">
             <li>
-              Siapkan 3 botol air mineral dengan label, isi masing-masing +-
+              Siapkan 3 botol air mineral dengan label, isi masing-masing ±
               30ml air cuka
             </li>
             <li>
@@ -38,7 +38,7 @@ export default function Ingredients() {
         <Card title="Praktikum #2">
           <ul className="list-decimal ml-4 text-sm">
             <li>
-              Siapkan 3 wadah bening dengan label, isi masing-masing +- 30ml air
+              Siapkan 3 wadah bening dengan label, isi masing-masing ± 30ml air
               cuka
             </li>
             <li>

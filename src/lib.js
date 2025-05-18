@@ -1,0 +1,1 @@
+export let yapping = "Halaman ini hanya akan optimal apabila diakses melalui perangkat laptop (dengan resolusi layar MINIMAL 1366x768 px), namun tidak menutup kemungkinan untuk dapat diakses pada perangkat mobile. Gunakan Up Arrow dan Down Arrow untuk memudahkan navigasi.";
