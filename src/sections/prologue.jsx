@@ -13,6 +13,11 @@ export default function Prologue({ withAnimate }) {
             Galih | Tiara | Vino | Revana | Sukma | Syekhilla
           </p>
         </Card>
+        {withAnimate && <Card>
+          <p className="text-pretty text-sm text-center">
+            Gunakan panah atas bawah pada keyboard untuk kemudahkan navigasi.
+          </p>
+        </Card>}
       </div>
     </section>
   );
