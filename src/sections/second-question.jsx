@@ -4,7 +4,7 @@ export default function SecondQuestion() {
   return (
     <section className="py-4 min-h-screen snap-center flex justify-center items-center flex-col gap-4">
       <div className="flex justify-center">
-        <Card title="Pertanyaan 2: Apa faktor yang memengaruhi percobaan tersebut? Jelaskan alasannya." centerizeTitle wide={2} />
+        <Card title="Apa faktor yang memengaruhi percobaan tersebut?" centerizeTitle wide={2} />
       </div>
       <div className="flex md:flex-row flex-col gap-4 md:max-w-4/5">
         <Card title="Percobaan 1: Cuka dan Soda Kue" wide>

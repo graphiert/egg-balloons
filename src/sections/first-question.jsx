@@ -4,7 +4,7 @@ export default function FirstQuestion() {
   return (
     <section className="py-4 min-h-screen snap-center flex justify-center items-center flex-col gap-4">
       <div className="flex justify-center">
-        <Card title="Pertanyaan 1: Bagaimana reaksi yang kalian amati pada 2 percobaan?" centerizeTitle wide={2} />
+        <Card title="Bagaimana reaksi yang terjadi selama kami amati pada 2 percobaan?" centerizeTitle wide={2} />
       </div>
       <div className="flex md:flex-row flex-col gap-4 md:max-w-4/5">
         <Card title="Percobaan 1: Cuka dan Soda Kue" wide>
