@@ -17,7 +17,7 @@ export default function Ingredients() {
         </Card>
       </div>
       <div className="flex flex-col md:flex-row gap-4">
-        <Card title="Praktikum #1">
+        <Card title="Praktikum 1: Cuka dan Soda Kue">
           <ul className="list-decimal ml-4">
             <li>
               Siapkan 3 botol air mineral dengan label, isi masing-masing ±
@@ -34,7 +34,7 @@ export default function Ingredients() {
             <li>Catat waktu dan amati perubahan yang terjadi selama reaksi</li>
           </ul>
         </Card>
-        <Card title="Praktikum #2">
+        <Card title="Praktikum 2: Cuka dan Cangkang Telur">
           <ul className="list-decimal ml-4">
             <li>
               Siapkan 3 wadah bening dengan label, isi masing-masing ± 30ml air
