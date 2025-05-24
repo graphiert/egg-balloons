@@ -8,7 +8,7 @@ import Ingredients from "./sections/ingredients";
 import TableReport from "./sections/table-report";
 import FirstQuestion from "./sections/first-question";
 import SecondQuestion from "./sections/second-question";
-import Report from "./sections/report";
+import Report from "./sections/report-row";
 import Conclusion from "./sections/conclusion";
 import Docs from "./sections/docs";
 
@@ -28,7 +28,7 @@ export default function App() {
           })
         : null;
     });
-    // alert(yapping);
+    alert(yapping);
   }, []);
 
   return (
