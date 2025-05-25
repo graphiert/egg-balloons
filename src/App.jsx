@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-import { yapping } from "./lib"
+// import { yapping } from "./lib"
 
 import Prologue from "./sections/prologue";
 import Intro from "./sections/intro";
@@ -28,7 +28,7 @@ export default function App() {
           })
         : null;
     });
-    alert(yapping);
+    // alert(yapping);
   }, []);
 
   return (
